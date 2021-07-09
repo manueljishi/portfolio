@@ -42,8 +42,8 @@ const HeroSection = () => {
             to="contact"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            primary="true"
-            dark="true"
+            primary={true}
+            dark={true}
           >
             Contact Me {hover ? <ArrowForward /> : <ArrowRight />}{" "}
           </Button>
